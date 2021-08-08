@@ -34,9 +34,7 @@
     			$('body').removeClass('offcanvas');
     			$('.js-fh5co-nav-toggle').removeClass('active');
 				
-	    	}
-	    
-	    	
+	    	}	
 	    }
 		});
 
@@ -44,7 +42,7 @@
 
 
 	var offcanvasMenu = function() {
-
+		//off Canvas Here!
 		$('#page').prepend('<div id="fh5co-offcanvas" />');
 		$('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
@@ -104,15 +102,11 @@
 		});
 	};
 
-	var fullHeight = function() {
-
-		if ( !isMobile.any() ) {
+	var fullHeight = function () {
+		$('.js-fullheight').css('height', $(window).height());
+		$(window).resize(function () {
 			$('.js-fullheight').css('height', $(window).height());
-			$(window).resize(function(){
-				$('.js-fullheight').css('height', $(window).height());
-			});
-		}
-
+		});
 	};
 
 
@@ -262,6 +256,5 @@
 		counterWayPoint();
 		fullHeight();
 	});
-
-
+	
 }());
