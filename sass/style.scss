@@ -462,6 +462,79 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
+// fh5co - education 
+#fh5co-education {
+	// padding: 7em 0;
+	background: white;
+	.services-padding{
+		padding: 7em 0;
+	}
+	.feature-left {
+		margin-bottom: 40px;
+		float: left;
+		@media screen and (max-width: $screen-md) {
+			margin-bottom: 30px;
+		}
+		.icon {
+			i {
+				font-size: 30px;
+				color: darken(#DD356E, 90%)!important;
+			}
+		}
+
+		.icon {
+			display: table;
+			float: left;
+			text-align: center;
+			width: 60px;
+			height: 60px;
+			background: #FEE856;
+			@include border-radius(50%);
+			i{
+				display: table-cell;
+				vertical-align: middle;
+				height: 60px;
+				color: $brand-primary !important;
+			}
+		}
+		.feature-copy {
+			float: right;
+			width: 78%;
+			@media screen and (max-width: $screen-sm) {
+				width: 84%;
+			}
+			@media screen and (max-width: $screen-xs) {
+				width: 70%;
+			}
+		}
+		h3 {
+			font-size: 24px;
+			font-weight: 400;
+		}
+		p {
+			font-size: 15px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			a{
+				color: $brand-black !important;
+			}
+		}
+	}
+	.ipad-bg{
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+		position: relative;
+		height: 430px;
+		@media screen and(max-width: $screen-sm){
+			height: 210px;
+		}
+		@media screen and(max-width: $screen-xs){
+			display: none;
+		}
+	}
+}
 
 #fh5co-features {
 	// padding: 7em 0;

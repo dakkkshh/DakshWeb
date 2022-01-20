@@ -190,6 +190,71 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
   border: none;
 }
+
+
+#fh5co-education {
+  background: white;
+}
+#fh5co-education .services-padding {
+  padding: 7em 0;
+}
+#fh5co-education .feature-left {
+  margin-bottom: 40px;
+  float: left;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-education .feature-left {
+    margin-bottom: 30px;
+  }
+}
+#fh5co-education .feature-left .icon i {
+  font-size: 30px;
+  color: #1a1a1a !important;
+}
+#fh5co-education .feature-left .icon {
+  display: table;
+  float: left;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background: #FEE856;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#fh5co-education .feature-left .icon i {
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+  color: #DD356E !important;
+}
+#fh5co-education .feature-left .feature-copy {
+  float: right;
+  width: 78%;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-education .feature-left .feature-copy {
+    width: 84%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-education .feature-left .feature-copy {
+    width: 70%;
+  }
+}
+#fh5co-education .feature-left h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#fh5co-education .feature-left p {
+  font-size: 15px;
+}
+#fh5co-education .feature-left p:last-child {
+  margin-bottom: 0;
+}
+
+
 #fh5co-features {
   background: #FEE856;
 }
