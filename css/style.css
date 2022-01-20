@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .flex-control-nav {
   top: -30px !important;
   z-index: 1000;
-  right: 0;
+  right: 1;
   float: right;
   width: auto;
 }
