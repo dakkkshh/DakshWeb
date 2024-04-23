@@ -1,9 +1,12 @@
 {
-  "name": "terminal",
+  "name": "dakkkshh-portfolio",
+  "version": "0.1.1",
+  "homepage": "https://dakkkshh.github.io",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -14,6 +17,7 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "js-yaml": "^4.1.0"
   }
 }
