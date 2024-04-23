@@ -1,0 +1,100 @@
+{
+  "ascii": [
+    "██████╗  █████╗ ██╗  ██╗██╗  ██╗██╗  ██╗███████╗██╗  ██╗██╗  ██╗",
+    "██╔══██╗██╔══██╗██║ ██╔╝██║ ██╔╝██║ ██╔╝██╔════╝██║  ██║██║  ██║",
+    "██║  ██║███████║█████╔╝ █████╔╝ █████╔╝ ███████╗███████║███████║",
+    "██║  ██║██╔══██║██╔═██╗ ██╔═██╗ ██╔═██╗ ╚════██║██╔══██║██╔══██║",
+    "██████╔╝██║  ██║██║  ██╗██║  ██╗██║  ██╗███████║██║  ██║██║  ██║",
+    "╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝"
+  ],
+  "title": "dakkkshh",
+  "username": "visitor",
+  "hostname": "dakkkshh",
+  "password": "dakkkshh",
+  "repoLink": "https://github.com/nasan016/webshell",
+  "social": {
+    "email": "daksh125001@gmail.com",
+    "github": "dakkkshh",
+    "linkedin": "dakkkshh"
+  },
+  "aboutGreeting": "Hi, my name is Daksh. I'm a software engineer based in India 🇮🇳",
+  "projects": [
+    [
+      "Colossus",
+      "Efficient study room allocation platform.",
+      "https://github.com/dakkkshh/Colossus"
+    ],
+    [
+      "KeepWell Mantras",
+      "Enhanced fitness app with subscriptions.",
+      "https://keepwellmantras.com/"
+    ],
+    [
+      "CoreSculpt",
+      "Tailored fitness app with subscriptions.",
+      "https://play.google.com/store/apps/details?id=com.keepwellmantras"
+    ],
+    [
+      "Hoffero",
+      "Revolutionizing hotel bookings with transparency.",
+      "https://app.hoffero.com/"
+    ],
+    [
+      "GetSetAdmit",
+      "Streamlined college application platform.",
+      "https://getsetadmit.com/"
+    ]
+  ],
+  "skills": {
+    "Languages": "C, C++, Data Structures, Algorithms, JavaScript, HTML, CSS",
+    "Frameworks & Libraries": "React JS, Next.Js, React Native, Ant Design, Tailwind CSS, Node.Js",
+    "Databases": "NoSQL, MySQL, MongoDB",
+    "IDE & Tools": "Git, BitBucket, Jira, Redux, CI/CD, AWS SES, AWS S3" 
+  },
+  "experience": [
+    {
+      "company": "Cosmic Technologies",
+      "role": "Software Engineer Intern",
+      "dates": "Oct 2022 - Present",
+      "description": [
+        "Integrated 30+ MVC APIs with access control ensuring data security and enhancing operations.",
+        "Automated 4+ systems with Selenium, processed 100+ job postings daily, reducing workload by 70%.",
+        "Developed 10+ reusable UI components, ensuring consistency across 6+ applications."
+      ]
+    },
+    {
+      "company": "FindUrFix",
+      "role": "Mobile App Development Intern",
+      "dates": "Jul 2022 - Sep 2022",
+      "description": [
+        "Enabled Google Authentication, reducing registration time by 60% (to 3s).",
+        "Unified Login and Sign-Up UI, reducing onboarding steps by 20%, improving UX.",
+        "Enhanced UX with Send Video feature, increasing user-generated content by 25%."
+      ]
+    }
+  ],
+  "resume-link": "https://drive.google.com/file/d/1OOUuvh5OSZpg1UeIIG0w9_1kp_ww92i5/view?usp=sharing",
+  "colors": {
+    "background": "#0C0623",
+    "foreground": "#F8DDE5",
+    "banner": "#FF9951",
+    "border": {
+      "visible": true,
+      "color": "#FFADE2"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#FD9BDB"
+    }
+  }
+}
